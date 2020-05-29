@@ -13,20 +13,27 @@
             }
 
         body{
-            background-color: rgb(157, 108, 204);
+            background-color: rgb(255, 255, 163);
             font-family: arial;
 
+        }
+
+        #img img{
+            height: 125px;
+            display: table-cell;
+            float: right;
+            
         }
             
         .main{
             background-color:white;
             margin: 32px 175px;
             padding: 50px;
-            
+            border: auto;
         }
         h1{
             font-weight: bolder;
-            color:  rgb(69, 1, 133);
+            color:  yellow;
             font-size: 35px;
             
         }
@@ -34,25 +41,24 @@
             color: black;
             font-size: 20px;
             padding-top: 15px;
-            
         }
         .links{
             text-align: center;
         }
-        #links-footer a{
-            border-bottom: 3px solid rgb(69, 1, 133);
-        }
+         
         .links a{
             font-weight: bolder;
-            color: white;
+            color: black;
             font-size: 18px;
             line-height: 28px;
             margin: 0 16px;
             text-decoration: none;
             padding-bottom: 3px;
+            border-bottom: 3px solid;
+
         }
         .links a:hover{
-            color: rgb(44, 9, 77);
+            color: yellow;
             transition: color 300ms;
         }
 
@@ -61,16 +67,27 @@
     <title>Primeiro site no GitHUb</title>
 </head>
 <body>
+
+    
+   
     <div class="main">
         <h1>Olá, Mundo</h1> 
         
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam soluta accusamus possimus asperiores, veritatis molestias expedita perferendis quae, repellat minima fuga et cum quidem modi magni maxime repellendus mollitia distinctio?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam soluta accusamus possimus asperiores, veritatis molestias expedita perferendis quae, repellat minima fuga et cum quidem modi magni maxime repellendus mollitia distinctio?
+        </p>
+
+        <div id="img">
+            <img src="https://cdn5.colorir.com/desenhos/color/2011009/3f6fbcfc27e48c5d89dd0d1f4c0e9f4c.png" alt="mundo">
+        </div>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem id sequi harum itaque suscipit quaerat, nobis, aperiam voluptates expedita odit nesciunt impedit laboriosam molestias necessitatibus, magni iure. Corrupti, fugiat dicta.</p>
+
     </div>
 
    
 
     <footer id="links-footer" class="links">
-        <a href="https://github.com/DaviCarvalhoo">GitHub</a>
+        <a href="https://github.com/DaviCarvalhoo" target="_blank">GitHub</a>
         <a href="mailto:davicarvalhotech@gmail.com">E-mail</a>
     </footer>
         
